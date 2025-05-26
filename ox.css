@@ -1,0 +1,56 @@
+.container {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    display: flex;
+}
+
+.question{
+    position: absolute;
+    width: 100%;
+    height: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 100%;
+    font-size: 50px;
+    font-weight: bolder;
+    color: white;
+}
+
+.img1 {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)) 50% 50% / auto 100% no-repeat, url(https://i.namu.wiki/i/3-KkBTJPKKcJhZ843jaHKml1ACBrS76wyrtrNIpXgOgApnxW0a9FOdwcIewvu1mmUY0-8uQRoz2ulAr-1pbrmw.webp);
+    background-position: 50% 50%;}
+
+.img2{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)) 50% 50% / auto 100% no-repeat, url(https://img.sbs.co.kr/newsnet/etv/upload/2023/08/17/30000869318_1280.jpg);
+    background-position: 50% 50%;
+}
+
+.ture,.false {
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.co,.cf{
+    font-family: "Black Han Sans", sans-serif;
+    font-size: 4rem;
+    transition:0.5s;
+    cursor: pointer;
+}
+
+.co:hover ,.cf:hover{
+    font-size: 100px;
+}
