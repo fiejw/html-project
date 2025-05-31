@@ -8,15 +8,15 @@
 </head>
 <body>
     <div class="container">
-        <div class="question" id="question">문제가 여기에 표시됩니다.</div>
+        <div class="question" id="question"></div>
         <div class="img1">
             <div class="ture">
-                <div class="co" onclick="nextQuestion(true)">O</div>
+                <div class="co" onclick="nextQuestion(this.innerText)"></div>
             </div>
         </div>
         <div class="img2">
              <div class="false">
-                 <div class="cf" onclick="nextQuestion(false)">X</div>
+                 <div class="cf" onclick="nextQuestion(this.innerText)"></div>
              </div>
          </div>
     </div>

@@ -24,7 +24,7 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)) 50% 50% / auto 100% no-repeat, url(https://i.namu.wiki/i/3-KkBTJPKKcJhZ843jaHKml1ACBrS76wyrtrNIpXgOgApnxW0a9FOdwcIewvu1mmUY0-8uQRoz2ulAr-1pbrmw.webp);
+    background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)) 50% 50% / auto 100% no-repeat; 
     background-position: 50% 50%;}
 
 .img2{
@@ -33,7 +33,7 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)) 50% 50% / auto 100% no-repeat, url(https://img.sbs.co.kr/newsnet/etv/upload/2023/08/17/30000869318_1280.jpg);
+    background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)) 50% 50% / auto 100% no-repeat;
     background-position: 50% 50%;
 }
 
@@ -54,3 +54,4 @@
 .co:hover ,.cf:hover{
     font-size: 100px;
 }
+
