@@ -11,9 +11,9 @@ const questions = [
         background:['https://images.pexels.com/photos/15239/flower-roses-red-roses-bloom.jpg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2',
             'https://images.pexels.com/photos/144240/goat-lamb-little-grass-144240.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2']
     },
-    { text: "스위스에서 밤 10시 이후에 불법인 것은? ", options: ["변기 물 내리기", "색소폰 불기"], correct: "변기 물 내리기",
-        background:['https://images.pexels.com/photos/7545637/pexels-photo-7545637.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2',
-            'https://images.pexels.com/photos/1049690/pexels-photo-1049690.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2'
+    { text: "베네수엘라에서 돈을 내야하는 행위는? ", options: ["숨쉬기", "화장실가기"], correct: "숨쉬기",
+        background:['https://images.pexels.com/photos/810775/pexels-photo-810775.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2',
+            'https://images.pexels.com/photos/5338294/pexels-photo-5338294.jpeg?auto=compress&cs=tinysrgb&w=800'
         ]
      }
 ];
