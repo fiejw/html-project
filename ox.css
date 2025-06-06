@@ -44,7 +44,7 @@
     justify-content: center;
     flex-direction: column;
 }
-.co,.cf{
+.button1,.button2{
     font-family: "Black Han Sans", sans-serif;
     font-size: 4rem;
     transition:0.5s;
@@ -54,4 +54,3 @@
 .co:hover ,.cf:hover{
     font-size: 100px;
 }
-
