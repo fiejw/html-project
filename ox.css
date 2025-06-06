@@ -51,6 +51,6 @@
     cursor: pointer;
 }
 
-.co:hover ,.cf:hover{
+.button1:hover ,.button2:hover{
     font-size: 100px;
 }
