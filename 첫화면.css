@@ -1,0 +1,45 @@
+@font-face {
+    font-family: 'LOTTERIACHAB';
+    src: url('https://fastly.jsdelivr.net/gh/projectnoonnu/noonfonts_2302@1.0/LOTTERIACHAB.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+
+.first{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.title {
+    animation: move 3s infinite;
+    font-family: 'LOTTERIACHAB';
+    font-size: 100px;
+    margin-bottom: 50px;
+}
+
+.start{
+    font-family: "Black Han Sans", sans-serif;
+    font-size: 4rem;
+    transition:0.5s;
+    cursor: pointer;
+    font-weight: bolder;
+}
+.start:hover{
+    font-size: 80px;
+}
+
+@keyframes move {
+    0% {
+        transform: scale(1);
+    }
+    50% {
+        transform: scale(1.2);
+    }
+    100% {
+        transform: scale(1);
+    }
+}
